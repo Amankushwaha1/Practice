@@ -1,6 +1,5 @@
-package DesignPatterns.Template;
+package DesignPatterns.Behavioral.Template;
 
-import javax.management.relation.RoleInfoNotFoundException;
 import java.util.Scanner;
 
 public class SpiecesInfo {

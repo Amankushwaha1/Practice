@@ -1,5 +1,5 @@
 
-package DesignPatterns.Template;
+package DesignPatterns.Behavioral.Template;
 /**
  * Represents an abstract growth stage with methods for different stages of development.
  */

@@ -1,6 +1,4 @@
-package DesignPatterns.Template;
-
-import javafx.stage.Stage;
+package DesignPatterns.Behavioral.Template;
 
 public class PandaStages extends GrowthStage {
     @Override

@@ -1,6 +1,4 @@
-package DesignPatterns.Template;
-
-import java.net.HttpURLConnection;
+package DesignPatterns.Behavioral.Template;
 
 public class InfoNotFoundException extends Exception {
     String msg;

@@ -1,7 +1,4 @@
-package DesignPatterns.Template;
-
-import javafx.scene.Group;
-import javafx.stage.Stage;
+package DesignPatterns.Behavioral.Template;
 
 public class ElephantStages extends GrowthStage {
 
