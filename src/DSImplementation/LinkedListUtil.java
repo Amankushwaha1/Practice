@@ -1,5 +1,7 @@
 package DSImplementation;
 
+import java.util.List;
+
 public class LinkedListUtil<E> {
 
     private void sop(Object o) {
@@ -32,6 +34,29 @@ public class LinkedListUtil<E> {
             cur = next;
         }
         return prev;
+    }
+
+    public LinkedListNode<E> createLinkedList(List<E> data) {
+        int size = data.size();
+        LinkedListNode<E> head = null, tail = null,temp = null;
+        for (int i = 0; i < size; i++) {
+            temp = new LinkedListNode<>(data.get(i));
+            if (head == null) head = tail = temp ;
+            else {
+                tail.setNext(temp);
+                tail = temp;
+            }
+        }
+        return head;
+    }
+
+    public LinkedListNode<E> middleNode(LinkedListNode<E> head) {
+        LinkedListNode<E> slow = head, fast = head;
+        while (fast != null && fast.getNext() != null) {
+            slow = slow.getNext();
+            fast = fast.getNext().getNext();
+        }
+        return slow;
     }
 
 }
