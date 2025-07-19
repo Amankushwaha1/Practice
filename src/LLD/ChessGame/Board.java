@@ -1,7 +1,4 @@
-package ChessGame;
-
-import java.util.ArrayList;
-import java.util.List;
+package LLD.ChessGame;
 
 public class Board {
 

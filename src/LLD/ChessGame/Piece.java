@@ -1,4 +1,4 @@
-package ChessGame;
+package LLD.ChessGame;
 
 public interface Piece {
 
