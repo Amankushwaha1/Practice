@@ -16,5 +16,10 @@ public class StringNewLine {
         }
 
         System.out.println(builder.toString());
+
+        String bic = "BOSPPGPMXXX";
+        String bic2 = "BOSPPGPM";
+        System.out.println(bic.substring(0, 8));
+        System.out.println(bic2.substring(0, 8));
     }
 }
